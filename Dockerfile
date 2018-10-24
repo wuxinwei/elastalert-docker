@@ -24,7 +24,7 @@ ENV CONTAINER_TIMEZONE Asia/Shanghai
 # Elastalert directories
 ENV CONFIG_DIR /opt/config
 ENV RULES_DIRECTORY /opt/rules
-ENV LOG_DIR /opt/log/elastalert
+ENV LOG_DIR /opt/logs
 
 ENV ELASTALERT_CONFIG ${CONFIG_DIR}/elastalert_config.yaml
 ENV ELASTALERT_SUPERVISOR_CONF ${CONFIG_DIR}/elastalert_supervisord.conf
